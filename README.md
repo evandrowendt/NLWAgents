@@ -34,7 +34,9 @@ cd NLWAgents_server
 
 2. **Instale as dependências**
 
-``` npm install ```
+``` 
+npm install
+ ```
 
 3. **Configure as variáveis de ambiente**
 Crie um arquivo .env com as configurações necessárias (exemplo: DATABASE_URL, PORT, etc.).
@@ -48,17 +50,13 @@ npm run dev
 Popular o banco de dados (opcional)
 
 ```
-bash
-Copiar
-Editar
-npm run db:seed`
+npm run db:seed
 ```
 Iniciar em modo produção
 
-bash
-Copiar
-Editar
+```
 npm start
+```
 
 🧪 Scripts Disponíveis
 | Script            | Descrição                                 |
