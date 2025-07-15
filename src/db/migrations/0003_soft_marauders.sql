@@ -1,0 +1,1 @@
+ALTER TABLE "audio_chuncks" ALTER COLUMN "embeddings" DROP NOT NULL;
